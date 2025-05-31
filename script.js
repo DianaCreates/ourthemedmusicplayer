@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const shuffleBtn = document.getElementById('shuffle');
   const loopBtn = document.getElementById('loop');
 
-  // Add toast container to the DOM
   const toast = document.createElement('div');
   toast.id = 'toast';
   document.body.appendChild(toast);
@@ -128,7 +127,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // 🎹 Keyboard shortcuts
   document.addEventListener('keydown', (e) => {
     if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
 
@@ -148,7 +146,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // 🍭 Cute Toast popup
   function showToast(message) {
     toast.innerHTML = message;
     toast.className = 'show-toast';
