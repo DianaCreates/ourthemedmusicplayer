@@ -18,16 +18,16 @@ document.addEventListener("DOMContentLoaded", function () {
   document.body.appendChild(toast);
 
   const songs = [
-    { songName: "Blissful Day", filePath: "songs/1.mp3", coverPath: "covers/1.jpg", duration: "2:34" },
-    { songName: "A Walk Downtown", filePath: "songs/2.mp3", coverPath: "covers/2.jpg", duration: "3:01" },
-    { songName: "My Notes", filePath: "songs/3.mp3", coverPath: "covers/3.jpg", duration: "2:47" },
-    { songName: "Smile for ME", filePath: "songs/4.mp3", coverPath: "covers/4.jpg", duration: "3:10" },
-    { songName: "Determined Thoughts", filePath: "songs/5.mp3", coverPath: "covers/5.jpg", duration: "2:55" },
-    { songName: "Just Here for the Vibes", filePath: "songs/6.mp3", coverPath: "covers/6.jpg", duration: "3:18" },
-    { songName: "I Got This!", filePath: "songs/7.mp3", coverPath: "covers/7.jpg", duration: "2:42" },
-    { songName: "Timing is Key", filePath: "songs/8.mp3", coverPath: "covers/8.jpg", duration: "3:06" },
-    { songName: "Carnival Fun", filePath: "songs/9.mp3", coverPath: "covers/9.jpg", duration: "3:33" },
-    { songName: "Hope", filePath: "songs/10.mp3", coverPath: "covers/10.jpg", duration: "2:58" },
+    { songName: "Blissful Day", filePath: "1.mp3", coverPath: "1.jpg", duration: "2:34" },
+    { songName: "A Walk Downtown", filePath: "2.mp3", coverPath: "2.jpg", duration: "3:01" },
+    { songName: "My Notes", filePath: "3.mp3", coverPath: "3.jpg", duration: "2:47" },
+    { songName: "Smile for ME", filePath: "4.mp3", coverPath: "4.jpg", duration: "3:10" },
+    { songName: "Determined Thoughts", filePath: "5.mp3", coverPath: "5.jpg", duration: "2:55" },
+    { songName: "Just Here for the Vibes", filePath: "6.mp3", coverPath: "6.jpg", duration: "3:18" },
+    { songName: "I Got This!", filePath: "7.mp3", coverPath: "7.jpg", duration: "2:42" },
+    { songName: "Timing is Key", filePath: "8.mp3", coverPath: "8.jpg", duration: "3:06" },
+    { songName: "Carnival Fun", filePath: "9.mp3", coverPath: "9.jpg", duration: "3:33" },
+    { songName: "Hope", filePath: "10.mp3", coverPath: "10.jpg", duration: "2:58" },
   ];
 
   const container = document.querySelector('.songItemContainer');
