@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let songIndex = 0;
   let isShuffle = false;
   let isLoop = false;
-  let audioElement = new Audio('songs/1.mp3');
+  let audioElement = new Audio('1.mp3');
 
   const masterPlay = document.getElementById('masterPlay');
   const myProgressBar = document.getElementById('myProgressBar');
