@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>₊⊹ studytune ~ chill, relax, and study</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="toast">Now Playing 🎵</div>
+
+  <nav>
+    <ul>
+      <li class="logo">
+        <img src="logo.png" alt="StudyTune Logo" />
+        <span class="site-title">StudyTune</span>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="suggestions.html">Suggestions</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section class="songList">
+      <h1>⋆⭒˚.⋆ Vibe & Study ⋆⭒˚.⋆</h1>
+      <div class="songItemContainer"></div>
+    </section>
+  </main>
+
+  <footer class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" />
+
+    <div class="controls">
+      <button id="previous" title="Previous Track">⏮ Prev</button>
+      <button id="masterPlay" title="Play or Pause">▶️ Play/Pause</button>
+      <button id="next" title="Next Track">⏭ Next</button>
+      <button id="shuffle" title="Shuffle Tracks">∞ Shuffle</button>
+      <button id="loop" title="Loop Current Track">𖦹 Loop</button>
+    </div>
+
+    <div class="songInfo">
+      <span id="masterSongName">Select a track˙ᵕ˙</span>
+      <span id="duration">0:00</span>
+    </div>
+  </footer>
+
+  <section class="music-credit">
+    Music by 
+    <a href="https://pixabay.com/users/snoozybeats-45164075/" target="_blank" rel="noopener noreferrer">snoozybeats</a>, 
+    <a href="https://pixabay.com/users/lofidreams99-25132446/" target="_blank" rel="noopener noreferrer">Kaveesha Senanayake</a>, 
+    <a href="https://pixabay.com/users/rockot-1947599/" target="_blank" rel="noopener noreferrer">Rockot</a>, 
+    <a href="https://pixabay.com/users/bfcmusic-16674938/" target="_blank" rel="noopener noreferrer">BFCMUSIC</a>, 
+    <a href="https://pixabay.com/users/original_soundtrack-50153119/" target="_blank" rel="noopener noreferrer">Viacheslav Starostin</a>, 
+    <a href="https://pixabay.com/users/clavier-music-16027823/" target="_blank" rel="noopener noreferrer">Clavier Clavier</a> 
+    from <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a>.
+  </section>
+
+  <script src="script.js" defer></script>
+  <script>
+    window.addEventListener("load", () => {
+      document.body.classList.add("ready");
+    });
+  </script>
+</body>
+</html>
